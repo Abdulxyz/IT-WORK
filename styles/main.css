@@ -55,8 +55,35 @@ html {
   color: white;
 }
 
+.top-nav .icon {
+  display: none;
+}
+
+/* make top-nav responsive */
+@media screen and (max-width: 600px) {
+  .top-nav a:not(:first-child) {display: none;}
+  .top-nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-nav.responsive {position: relative;}
+  .top-nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .top-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Call to action */
 .call-to-action {
-  /* background-color: #ddd; */
   color: whitesmoke;
 }
 
@@ -105,13 +132,6 @@ html {
   height: 350px;
   padding: 40px;
   overflow: hidden;
-}
-
-.footer {
-  background-color: #333;
-  padding: 20px;
-  color: whitesmoke;
-  text-align: center;
 }
 
 .email-input {
@@ -168,4 +188,12 @@ html {
   .row {
     flex-direction: row;
   }
+}
+
+/* footer */
+.footer {
+  background-color: #333;
+  padding: 20px;
+  color: whitesmoke;
+  text-align: center;
 }
