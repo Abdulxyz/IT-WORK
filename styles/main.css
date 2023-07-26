@@ -139,6 +139,7 @@ html {
   border-radius: 5px;
   padding: 10px;
   font-size: 15px;
+  background-color: #ddd;
 }
 
 .signup-button {
@@ -151,9 +152,17 @@ html {
   font-size: 15px;
 }
 
+.form-container{
+  padding: 20px;
+}
+
 .newsletter-form {
-  width: fit-content;
-  margin: 0 auto
+  max-width: 400px;
+  margin: 0 auto;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
 }
 
 .features {
@@ -195,5 +204,31 @@ html {
   background-color: #333;
   padding: 20px;
   color: whitesmoke;
+  text-align: center;
+}
+
+.product-gallery{
+  background-color: #333;
+  height: 200px;
+  padding: 20px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
   text-align: center;
 }
