@@ -116,12 +116,12 @@ html {
   flex-direction: column;
 }
 
-.right {
+.right{
   background-image: url("../images/background1.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
-
 .left {
   background-color: #048a59;
 }
@@ -132,6 +132,10 @@ html {
   height: 350px;
   padding: 40px;
   overflow: hidden;
+}
+
+.right{
+  padding: 0;
 }
 
 .email-input {
