@@ -21,6 +21,12 @@ html {
   padding: 10px;
 }
 
+.cart-logo{
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
 /* Add a black background color to the top navigation */
 .top-nav {
   background-color: #333;
@@ -55,7 +61,6 @@ html {
 }
 
 .shop-button {
-  width: 200px;
   padding: 10px;
   font-size: 20px;
   border-radius: 10px;
@@ -64,6 +69,15 @@ html {
   background-color: #333;
   border-color: white;
   border-style: solid;
+  transition: 0.2s;
+}
+
+.shop-button:hover{
+  box-shadow: 0 0 10px;
+}
+
+.signup-button:hover{
+  box-shadow: 0 0 10px;
 }
 
 .heading {
